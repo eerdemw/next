@@ -33,7 +33,6 @@ export default function Home() {
       <main className={styles.main}>
         <Dog onFetch={onSuccess} onError={onError}>
           <h1>Dog Component Home</h1>
-          <p>Some text</p>
         </Dog>
 
         <section>
